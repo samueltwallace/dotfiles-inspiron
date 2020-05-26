@@ -1,0 +1,7 @@
+#!/usr/bin/env zsh
+
+WALLPAPERPATH=$(find $HOME/Pictures -name "$@")
+wal -i "$WALLPAPERPATH"
+killall polybar
+polybar example
+pywalfox update
