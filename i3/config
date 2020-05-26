@@ -44,6 +44,8 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+bindsym $mod+Shift+Return exec gtk-launch $(xdg-settings get default-web-browser)
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
@@ -140,6 +142,8 @@ bindsym $mod+Shift+7 move container to workspace number $ws7
 bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
+
+bindsym $mod+Tab workspace next
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
