@@ -1,0 +1,1 @@
+/home/samueltwallace/.config/nvim/plugins.vim
