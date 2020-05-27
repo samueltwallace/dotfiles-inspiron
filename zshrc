@@ -124,3 +124,4 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 export PATH="/home/samueltwallace/.local/bin/:$PATH"
+alias x='exit'
