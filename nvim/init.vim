@@ -39,7 +39,7 @@ let g:airline_theme='minimalist'
 
 Plugin 'JuliaEditorSupport/julia-vim'
 
-
+Plugin 'tpope/vim-fugitive'
 
 
 
