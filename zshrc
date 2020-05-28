@@ -98,9 +98,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias deb-on-kindle="ssh android@10.20.0.241"
-alias arch-on-kindle="ssh android@192.168.1.6"
-alias gcom="git add . && git commit -m "
 task list
 # Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.
@@ -124,4 +121,4 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 export PATH="/home/samueltwallace/.local/bin/:$PATH"
-alias x='exit'
+source .aliases

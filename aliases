@@ -1,0 +1,7 @@
+alias deb-on-kindle="ssh android@10.20.0.241"
+alias arch-on-kindle="ssh android@192.168.1.6"
+alias gcom="git add . && git commit -m "
+alias x='exit'
+alias fd='cd "$(find */| fzf)"'
+alias fvim='nvim $(ls -R | fzf)'
+alias refresh='source $HOME/.zshrc'
