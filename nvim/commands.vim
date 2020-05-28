@@ -2,7 +2,7 @@ nnoremap <C-l> <C-W>l
 nnoremap <C-h> <C-W>h
 nnoremap <C-j> <C-W>j
 nnoremap <C-k> <C-W>k
-nnoremap <M-l> <C-W>>
+noremap <M-l> <C-W>>
 nnoremap <M-k> <C-W>-
 nnoremap <M-j> <C-W>+
 nnoremap <M-h> <C-W><
