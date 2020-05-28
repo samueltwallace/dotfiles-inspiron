@@ -1,4 +1,11 @@
-# If you come from bash you might have to change your $PATH.
+#
+#                                _ _                 _ _                
+# ___  __ _ _ __ ___  _   _  ___| | |___      ____ _| | | __ _  ___ ___ 
+#/ __|/ _` | '_ ` _ \| | | |/ _ \ | __\ \ /\ / / _` | | |/ _` |/ __/ _ \
+#\__ \ (_| | | | | | | |_| |  __/ | |_ \ V  V / (_| | | | (_| | (_|  __/
+#|___/\__,_|_| |_| |_|\__,_|\___|_|\__| \_/\_/ \__,_|_|_|\__,_|\___\___|
+#                                                                       
+## If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -121,4 +128,4 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 export PATH="/home/samueltwallace/.local/bin/:$PATH"
-source .aliases
+source $HOME/.aliases

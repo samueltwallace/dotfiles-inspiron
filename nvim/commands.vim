@@ -7,5 +7,7 @@ nnoremap <M-k> <C-W>-
 nnoremap <M-j> <C-W>+
 nnoremap <M-h> <C-W><
 inoremap <F2> <c-g>u<Esc>[s1z=`]a<c-g>u
+nnoremap <F5> \llc
 command -nargs=+ Wolf :! wolframscript -code "<args>"
 command -nargs=+ WolfTeX :! wolframscript -code "<args>" -format TeX
+command -nargs=0 Refresh :source $HOME/.config/nvim/init.vim
