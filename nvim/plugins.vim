@@ -9,9 +9,9 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'SirVer/UltiSnips'
 
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+let g:UltiSnipsExpandTrigger="<C-Space>"
+let g:UltiSnipsJumpForwardTrigger="<C-Space>"
+let g:UltiSnipsJumpBackwardTrigger="<C-Shift-Space>"
 let g:UltiSnipsEditSplit="vertical"
 
 Plugin 'honza/vim-snippets'
@@ -40,6 +40,7 @@ Plugin 'tpope/vim-fugitive'
 
 Plugin 'junegunn/fzf'
 
+Plugin 'valloric/youcompleteme'
 
 
 
@@ -60,5 +61,6 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+"
 "
 "
