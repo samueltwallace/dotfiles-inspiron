@@ -38,7 +38,7 @@ Plugin 'JuliaEditorSupport/julia-vim'
 
 Plugin 'tpope/vim-fugitive'
 
-
+Plugin 'junegunn/fzf'
 
 
 
