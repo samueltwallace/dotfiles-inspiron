@@ -40,6 +40,8 @@ Plugin 'tpope/vim-fugitive'
 
 Plugin 'junegunn/fzf'
 
+Plugin 'junegunn/fzf.vim'
+
 Plugin 'valloric/youcompleteme'
 
 

@@ -200,8 +200,6 @@ for_window [class="(?i)*nextcloud*"] floating disable
 for_window [class="plasmashell" window_type="notification"] floating enable, border none, move right 700px, move down 450px
 no_focus [class="plasmashell" window_type="notification"]
 
-for_window [class="ulauncher"] floating enable; border none
-
 gaps inner 10
 gaps outer 10
 exec compton
