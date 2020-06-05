@@ -6,7 +6,9 @@ nnoremap <Leader>o ggVGzO''
 nnoremap <Leader>c ggVGzC''
 nnoremap <Leader>d :YcmCompleter GoTo<cr>
 nnoremap <Leader>l :Lines<cr>
-nnoremap <Leader>v :vs<cr>
+nnoremap <Leader>v :vs<cr>:FZF<cr>
+nnoremap <Leader>r :Rg<cr>
+nnoremap <Leader>s :split<cr>:FZF<cr>
 
 nnoremap <C-l> <C-W>l
 nnoremap <C-h> <C-W>h
