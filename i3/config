@@ -171,10 +171,10 @@ mode "resize" {
 
 	bindsym minus gaps inner current plus 2
 	bindsym plus gaps inner current minus 2
-	bindsym 0 gaps inner all set 10
-	bindsym 9 gaps inner all set 20
-	bindsym 8 gaps inner all set 30
-	bindsym 7 gaps inner all set 40
+	bindsym 0 gaps inner current set 10
+	bindsym 9 gaps inner current set 20
+	bindsym 8 gaps inner current set 30
+	bindsym 7 gaps inner current set 40
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
@@ -188,7 +188,7 @@ mode "programs" {
 
 	bindsym $mod+m exec --no-startup-id alacritty -e="ncmpcpp"
 	bindsym $mod+n mode "default"
-	bindsym $mod+v exec --no-startup-id alacritty -e="vimz"
+	bindsym $mod+v exec --no-startup-id alacritty -e="nvim"
 }
 
 bindsym $mod+n mode "programs"
