@@ -42,8 +42,14 @@ Plugin 'junegunn/fzf'
 
 Plugin 'junegunn/fzf.vim'
 
-Plugin 'valloric/youcompleteme'
+" Plugin 'ycm-core/youcompleteme'
 
+
+
+
+
+" Plugin 'neoclide/coc.nvim'
+" let g:coc_node_path='/usr/bin/node'
 
 
 
@@ -66,3 +72,25 @@ filetype plugin indent on    " required
 "
 "
 "
+" let s:lsp='$HOME/progrepos/lsp-examples'
+" 
+" let g:julia_cmdline = ['julia', '--startup-file=no', '--history-file=no', '-e', '
+" \       using LanguageServer;
+" \       using Pkg;
+" \       import StaticLint;
+" \       import SymbolServer;
+" \       env_path = dirname(Pkg.Types.Context().env.project_file);
+" \       debug = false;
+" \
+" \       server = LanguageServer.LanguageServerInstance(stdin, stdout, debug, env_path, "", Dict());
+" \       server.runlinter = true;
+" \       run(server);
+" \   ']
+" 
+" let g:ycm_language_server = [
+"   \   { 'name': 'julia',
+"   \     'filetypes': [ 'julia' ],
+"   \     'project_root_files': [ 'Project.toml' ],
+"   \     'cmdline': g:julia_cmdline
+"   \   },
+"   \]

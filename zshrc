@@ -129,3 +129,7 @@ unset __conda_setup
 
 export PATH="/home/samueltwallace/.local/bin/:$PATH"
 source $HOME/.aliases
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
