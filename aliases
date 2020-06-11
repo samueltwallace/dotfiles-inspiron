@@ -2,15 +2,9 @@ alias deb-on-kindle="ssh android@10.20.0.241"
 alias arch-on-kindle="ssh android@192.168.1.6"
 alias gcom="git add . && git commit -m "
 alias :q='exit'
-alias cdz='cd "$(find */| fzf)"'
-alias vimz='nvim $(find * | fzf --preview="cat {}")'
 alias rmz='rm "$(find * | fzf)"'
-alias pdfz='zathura "$(fzf)"'
 alias colorscheme='wal --preview'
 alias refresh='exec $SHELL -l'
-alias jlz='julia "$(find **/*.jl | fzf)"'
-alias pyz='python "$(find **/*.py | fzf)"'
 alias topz='echo "    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+" && top -b -n 1 | fzf'
-alias picz='feh --zoom fill "$(fzf)"'
 alias clc='clear'
 alias music='ncmpcpp'
