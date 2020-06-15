@@ -1,3 +1,6 @@
+syntax on
+
+
 colorscheme wal
 set foldmethod=indent
 

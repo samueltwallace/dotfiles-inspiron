@@ -163,6 +163,11 @@ mode "resize" {
         bindsym k resize shrink height 2 px or 2 ppt
         bindsym l resize grow width 2 px or 2 ppt
 
+        bindsym Shift+h resize set width 50 ppt
+        bindsym Shift+j resize set height 50 ppt
+        bindsym Shift+k resize set height 50 ppt
+        bindsym Shift+l resize set width 50 ppt
+
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 5 px or 5 ppt
         bindsym Down resize grow height 5 px or 5 ppt
@@ -193,6 +198,7 @@ mode "programs" {
 
 	bindsym $mod+m exec --no-startup-id alacritty -e="ncmpcpp"; exec --no-startup-id sleep 0.50 && i3-msg floating enable && i3-msg mode "default"
 	bindsym $mod+s exec --no-startup-id systemsettings5; exec --no-startup-id sleep 1s && i3-msg floating enable && i3-msg mode "default"
+	bindsym $mod+t exec --no-startup-id alacritty -e="top"; exec --no-startup-id sleep 1s && i3-msg floating enable && i3-msg mode "default"
 	bindsym $mod+n mode "default"
 }
 
