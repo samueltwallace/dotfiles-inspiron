@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+source $HOME/.cache/wal/colors.sh
+
+export PATH=/snap/bin:$HOME/.local/bin:$PATH
+
+dmenu_run -b -l 4 -nb "$color0" -nf "$color15" -sb "$color4" -sf "$color15"
