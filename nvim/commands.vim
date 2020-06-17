@@ -9,7 +9,7 @@ nnoremap <Leader>l :Lines<cr>
 nnoremap <Leader>v :vs<cr>:FZF<cr>
 nnoremap <Leader>r :Rg<cr>
 nnoremap <Leader>s :split<cr>:FZF<cr>
-nnoremap <Leader>n :NERDTree<cr>
+nnoremap <Leader>n :NERDTreeToggle<cr>
 
 nnoremap <C-l> <C-W>l
 nnoremap <C-h> <C-W>h
