@@ -31,12 +31,12 @@ foreground = ${xrdb:color7:#222}
 foreground-alt = #555
 primary = ${xrdb:color10:#ffb52a}
 secondary =${xrdb:color15: #e60053}
-alert = ${xrdb:color17:#bd2c40}
+alert = ${xrdb:color15:#bd2c40}
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 27
+height = 20
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 6.0
@@ -57,9 +57,9 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Noto Sans:style=Regular:size=12:anialias=false;0
-font-1 = Noto Sans:style=Italic:size=12:anialias=false;0
-font-2 = Noto Sans:Style=Bold:size=12:anialias=false;0
+font-0 = DejaVu Sans:style=Regular:size=8:anialias=false;0
+font-1 = DejaVu Sans:style=Italic:size=8:anialias=false;0
+font-2 = DejaVu Sans:Style=Bold:size=8:anialias=false;0
 
 modules-left = bspwm i3 xwindow
 modules-center = mpd
@@ -73,6 +73,155 @@ tray-padding = 2
 ;wm-restack = i3
 
 ;override-redirect = true
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[bar/windowsmini]
+
+;monitor = ${env:MONITOR:HDMI-1}
+width = 28%
+height = 27
+;offset-x = 1%
+;offset-y = 1%
+radius = 6.0
+fixed-center = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = #f00
+
+border-size = 4
+border-color = #00000000
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = DejaVu Sans:style=Regular:size=12:anialias=false;0
+font-1 = DejaVu Sans:style=Italic:size=12:anialias=false;0
+font-2 = DejaVu Sans:Style=Bold:size=12:anialias=false;0
+
+modules-left = bspwm i3 xwindow
+
+
+tray-position = right
+tray-padding = 2
+;tray-background = #0063ff
+
+;wm-restack = bspwm
+;wm-restack = i3
+
+;override-redirect = true
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[bar/mpdmini]
+
+;monitor = ${env:MONITOR:HDMI-1}
+width = 40%
+height = 27
+offset-x = 33%
+;offset-y = 1%
+radius = 6.0
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = #f00
+
+border-size = 4
+border-color = #00000000
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = DejaVu Sans:style=Regular:size=12:anialias=false;0
+font-1 = DejaVu Sans:style=Italic:size=12:anialias=false;0
+font-2 = DejaVu Sans:Style=Bold:size=12:anialias=false;0
+
+modules-center = mpd pulseaudio
+;module-right=pulseaudio
+
+tray-position = right
+tray-padding = 2
+;tray-background = #0063ff
+
+;wm-restack = bspwm
+;wm-restack = i3
+
+override-redirect = true
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[bar/othermini]
+
+;monitor = ${env:MONITOR:HDMI-1}
+width = 25%
+height = 27
+offset-x = 75%
+;offset-y = 1%
+radius = 6.0
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 3
+line-color = #f00
+
+border-size = 4
+border-color = #00000000
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = DejaVu Sans:style=Regular:size=12:anialias=false;0
+font-1 = DejaVu Sans:style=Italic:size=12:anialias=false;0
+font-2 = DejaVu Sans:Style=Bold:size=12:anialias=false;0
+
+modules-right = xkeyboard memory cpu wlan eth battery date 
+
+tray-position = right
+tray-padding = 2
+;tray-background = #0063ff
+
+;wm-restack = bspwm
+;wm-restack = i3
+
+override-redirect = true
 
 ;scroll-up = bspwm-desknext
 ;scroll-down = bspwm-deskprev

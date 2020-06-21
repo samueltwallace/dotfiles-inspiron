@@ -9,5 +9,3 @@
 WALLPAPERPATH=$(find $HOME/Pictures -name "$@")
 wal -i "$WALLPAPERPATH"
 pywalfox update
-killall polybar
-polybar example
