@@ -57,9 +57,9 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = DejaVu Sans:style=Regular:size=8:anialias=false;0
-font-1 = DejaVu Sans:style=Italic:size=8:anialias=false;0
-font-2 = DejaVu Sans:Style=Bold:size=8:anialias=false;0
+font-0 = Hack:style=Medium:size=10:anialias=false;0
+font-1 = Hack:style=Medium:size=10:anialias=false;0
+font-2 = Hack:Style=Bold:size=10:anialias=false;0
 
 modules-left = bspwm i3 xwindow
 modules-center = mpd
