@@ -1,5 +1,5 @@
 alias deb-on-kindle="ssh android@10.20.0.241"
-alias arch-on-kindle="ssh android@192.168.1.6"
+alias arch-on-kindle="ssh android@10.20.0.171"
 alias gcom="git add . && git commit -m "
 alias :q='exit'
 alias rmz='rm "$(find * | fzf)"'
