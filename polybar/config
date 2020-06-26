@@ -634,4 +634,4 @@ margin-bottom = 5
 [module/temp]
 type=custom/script
 exec=$HOME/.config/polybar/temp.sh
-interval=3600
+interval= 360
