@@ -76,7 +76,7 @@ ZSH_THEME="gitster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 export FZF_BASE=/usr/bin/fzf
-plugins=(git vi-mode fzf dune-quotes)
+plugins=(git vi-mode fzf dune-quotes )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -106,7 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-task list
+# task list
 # Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.
 # ( ) # Hide shell job control messages.

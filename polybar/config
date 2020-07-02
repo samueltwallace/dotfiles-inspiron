@@ -57,9 +57,9 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Hack:style=Medium:size=10:anialias=false;0
-font-1 = Hack:style=Medium:size=10:anialias=false;0
-font-2 = Hack:Style=Bold:size=10:anialias=false;0
+font-0 = CascadiaCode:style=Medium:size=10:anialias=false;0
+font-1 = CascadiaCode:style=Medium:size=10:anialias=false;0
+font-2 = CascadiaCode:Style=Bold:size=10:anialias=false;0
 
 modules-left = bspwm i3 xwindow
 modules-center = mpd
@@ -256,9 +256,9 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Hack:style=Medium:size=10:anialias=false;0
-font-1 = Hack:style=Medium:size=10:anialias=false;0
-font-2 = Hack:Style=Bold:size=10:anialias=false;0
+font-0 = CascadiaCode:style=Medium:size=10:anialias=false;0
+font-1 = CascadiaCode:style=Medium:size=10:anialias=false;0
+font-2 = CascadiaCode:Style=Bold:size=10:anialias=false;0
 
 modules-left = bspwm i3 xwindow
 modules-center = mpd

@@ -39,7 +39,7 @@ colors:
 font:
   # The normal (roman) font face to use.
   normal:
-    family: Hack
+    family: CascadiaCode
     # Style can be specified to pick a specific face.
     style: Medium
 

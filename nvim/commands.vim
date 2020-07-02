@@ -23,7 +23,7 @@ nnoremap <M-h> <C-W><
 inoremap <F2> <c-g>u<Esc>[s1z=`]a<c-g>u
 nnoremap <F5> \llc
 
-inoremap <silent><expr> <c-space> coc#refresh()
+inoremap <silent><expr> <Leader><Tab> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
 
 command -nargs=+ Wolf :! wolframscript -code "<args>"
 command -nargs=+ WolfTeX :! wolframscript -code "<args>" -format TeX

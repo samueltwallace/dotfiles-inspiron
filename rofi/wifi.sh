@@ -9,7 +9,7 @@ FIELDS=SSID,SECURITY
 POSITION=0
 YOFF=0
 XOFF=0
-FONT="Hack 10"
+FONT="CascadiaCode 10"
 
 if [ -r "$DIR/config" ]; then
 	source "$DIR/config"

@@ -1,4 +1,4 @@
 configuration {
 theme: "~/.cache/wal/colors-rofi-dark.rasi";
-font: "Hack 10";
+font: "CascadiaCode 10";
 }
